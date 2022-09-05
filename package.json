@@ -15,6 +15,7 @@
     "contracts"
   ],
   "dependencies": {
+    "@remix-project/remixd": "^0.6.6",
     "@uniswap/lib": "4.0.1-alpha",
     "@uniswap/v2-core": "1.0.0"
   },
@@ -44,5 +45,8 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "volta": {
+    "node": "14.20.0"
+  }
 }
